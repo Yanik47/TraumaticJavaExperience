@@ -1,0 +1,15 @@
+// klasa służąca do tworzenia wykresów
+// na potrzeby kolokwium wycięto z niej wszystko poza dwoma metodami
+
+class ChartMaker {
+
+    // przelicz długość podaną w calach na punkty
+    static float parseInch(float inch) {
+        return inch * 72; // jeden cal to 72 punkty
+    }
+
+    // przeliczanie centymetrów na punkty
+    static float parseCM(float cm) {
+        return cm * 28.346456693f;
+    }
+}
